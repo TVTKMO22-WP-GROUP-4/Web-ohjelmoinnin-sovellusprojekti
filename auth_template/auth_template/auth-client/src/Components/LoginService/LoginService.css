@@ -1,0 +1,44 @@
+.kayttaja {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.form {
+    background-color: #b7d7ec;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    min-width:300px;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #bedef3;
+    border-width: 2px;
+    padding: 80px 80px;
+}
+
+.input {
+    margin-bottom: 30px;
+}
+
+.kirjaudu {
+    border-radius: 1rem;
+    border-color: #0000;
+    border-width: 2px;
+    background-color: #fff;
+    font-size: large;
+    color: #000;
+}
+
+.kirjaudu:hover {
+    background-color: #ebebeb;    
+    transition: all;
+    transition-duration: 150ms;
+}
+
+.errorText {
+    background-color:  #a3b188;
+    color: red;
+    padding: 1rem;
+}

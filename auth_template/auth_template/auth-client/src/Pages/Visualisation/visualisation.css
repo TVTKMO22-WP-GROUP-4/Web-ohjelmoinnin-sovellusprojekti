@@ -1,0 +1,18 @@
+.poista {
+    border-radius: 1rem;
+    border-color: #0000;
+    border-width: 2px;
+    background-color: #a3b188;
+    font-size: large;
+    color: #000;
+}
+
+.poista:hover {
+    background-color: #ebebeb;    
+    transition: all;
+    transition-duration: 150ms;
+}
+
+.poistoalue {
+    padding: 1rem;
+}

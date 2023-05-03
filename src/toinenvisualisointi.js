@@ -22,15 +22,15 @@ chartjs.register(
     data: item['yearlyCo2']
   }});
   const icecore1deitaa = icecore1data.datataulu.map((item) => {return {
-    time: item['iceAge'],
+    time: item['airAge'],
     co2ratio: item['co2ratio']
   }});
   const icecore2deitaa = icecore2data.datataulu.map((item) => {return {
-    time: item['iceAge'],
+    time: item['airAge'],
     co2ratio: item['co2ratio']
   }});
   const icecore3deitaa = icecore3data.datataulu.map((item) => {return {
-    time: item['iceAge'],
+    time: item['airAge'],
     co2ratio: item['co2ratio']
   }})
 
@@ -124,44 +124,59 @@ chartjs.register(
           title: {
             display: true,
             width:"50px",
-            text:'Global historical surface temperature anomalies from January 1850 onwards',
+            text:'Atmospheric CO2 concentrations',
           },
         },
         scales: {
           data: {
             type: 'linear',
-            display: true,
+            
             position: 'left',
             },
           x: {
-            type: "time",
+           max:2023,
+            type: "linear",
             ticks:{
-            source:"data",
-            autoskip:true,
-            min: 0,
           },
           
-        time:{
-          unit: yearlyData === "Line" ? "year" : "month",
-          autoskip: true,
-          displayFormats: {
-            year: "y",
-            month:  "y",
-            },
-         },
+       
          
         }
     }
 };
 
     return (
-        <div style={{ width: "500px" }}>
-          <h1>G</h1>
+        <div style={{ width: "750px",  marginLeft:"250px"}}>
     
+    
+
+          <div style={{width: "24rem", border:"1px solid", marginLeft:"190px", marginTop:"50px", marginBottom:"50px"}}>
+        <div>
+          
+
+          <div style={{textAlign:"center"}}>
+                <p style={{textAlign:"center"}} >Atmospheric CO2 concentrations from Mauna Loa measurements starting 1958 </p>
+                <a href="https://gml.noaa.gov/ccgg/about/co2_measurements.html">Mauna Loa description </a>
+                <a href="https://gml.noaa.gov/ccgg/trends/data.html">Mauna Loa Data </a>
+          </div>
+          <div style={{textAlign:"center", paddingBottom:"15px"}}>
+                <p>And Antarctic Ice Core records of atmospheric CO2 ratios</p>
+         
+                <a href="https://cdiac.ess-dive.lbl.gov/trends/co2/lawdome.html">Law Dome description </a>
+                <a href="https://cdiac.ess-dive.lbl.gov/ftp/trends/co2/lawdome.combined.dat">Law Dome Data </a>
+           
+              </div>
+             
+              
+          </div>
+      </div>          
+
           <div> 
             <Line data={yearlyData} options={options} width={2} height={1.5} />
           </div>
           
-        </div>
+        
+    </div>
+        
       );
    }

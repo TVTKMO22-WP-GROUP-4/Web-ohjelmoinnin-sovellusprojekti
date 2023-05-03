@@ -64,7 +64,7 @@ export default function Ekavisualisointi() {
           yAxisKey:"kuukausianomaly",
           xAxisKey:"kuukausi",
         },
-        pointRadius: 1,
+        pointRadius: 0,
       },
       {
         label: 'North monthly anomalies',
@@ -76,7 +76,7 @@ export default function Ekavisualisointi() {
           yAxisKey:"kuukausianomaly",
           xAxisKey:"kuukausi",
         },
-        pointRadius: 1,
+        pointRadius: 0,
       },
       {
         label:'South monthly anomalies',
@@ -88,7 +88,7 @@ export default function Ekavisualisointi() {
           yAxisKey:"kuukausianomaly",
           xAxisKey:"kuukausi",
         },
-        pointRadius:1,
+        pointRadius:0,
       },
       
     ]
@@ -106,7 +106,7 @@ export default function Ekavisualisointi() {
       xAxisKey: "time",
       yAxisKey: "anomaly",
     },
-    pointRadius: 1,
+    pointRadius: 0,
     },
     {
     label:'North annual anomalies',
@@ -118,7 +118,7 @@ export default function Ekavisualisointi() {
       xAxisKey: "vuosi",
       yAxisKey: "vuosianomaly",
     },
-    pointRadius: 1,
+    pointRadius: 0
     },
     {
       label:'South annual anomalies',
@@ -130,7 +130,7 @@ export default function Ekavisualisointi() {
         xAxisKey:"vuosi",
         yAxisKey:"vuosianomaly",
       },
-      pointRadius:1,
+      pointRadius:0,
     },
     {
       label: 'Reconstruction',
@@ -142,7 +142,7 @@ export default function Ekavisualisointi() {
         xAxisKey:"vuosi",
         yAxisKey:"temp"
       },
-      pointRadius: 1,
+      pointRadius: 0,
     },
   ],
   };
@@ -204,19 +204,43 @@ const charTypeLine2 = () => {
 
 
 return (
-    <div style={{ width: "1500px" }}>
-      <h1>Global historical surface temperature anomalies</h1>
+    <div style={{ width: "750px" ,marginLeft:"250px"}}>
+      
 
-      <input type="radio" id="line" name="chart" onClick={charTypeLine} defaultChecked />
+      <div style={{width: "24rem", border:"1px solid", marginLeft:"190px", marginTop:"50px"}}>
+
+      <div style={{textAlign:"center"}} > 
+        <p >  Global historical surface
+              temperature anomalies
+                from January 1850
+                    onwards
+</p>
+  <div style={{textAlign:"center", margin:"10px"}}>
+                <a href="https://www.metoffice.gov.uk/hadobs/hadcrut5/">Hadley Centre observations datasets and description</a>
+              </div>
+      <p> And Northern Hemisphere 2,000-year temperature reconstruction </p>
+      <div style={{textAlign:"center", margin:"10px"}}>
+                <a href="https://bolin.su.se/data/moberg-2012-nh-1?n=moberg-2005">Northern Hemisphere 2,000-year temperature reconstruction description </a>
+
+                <a href="https://www.ncei.noaa.gov/pub/data/paleo/contributions_by_author/moberg2005/nhtemp-moberg2005.txt">Northern Hemisphere 2,000-year temperature reconstruction Data </a>
+              </div>  
+      </div>
+
+    <div style={{textAlign:"center"}}>
+      <input type="radio" id="line" name="chart" onClick={charTypeLine} defaultChecked/>
         <label htmlFor="line">Annual</label>
         <input type="radio" id="line2" name="chart" onClick={charTypeLine2} />
         <label htmlFor="line">Monthly</label>
+    </div>
+        
+           </div>     
 
       <div> 
         {type === "line" && <Line data={yearlyData} options={options} width={2} height={1.5} />}
         {type === "line2" && <Line data={monthlyData} options={options} width={2} height={1.5} />}
       </div>
       
+     
     </div>
   );
 }

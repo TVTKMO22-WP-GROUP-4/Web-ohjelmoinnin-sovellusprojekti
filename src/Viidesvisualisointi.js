@@ -1,5 +1,5 @@
 import { Doughnut } from 'react-chartjs-2';
-import {React, useEffect, useRef, useState} from "react";
+import {React, useEffect, useState} from "react";
 import {Chart as chartjs, Title, Tooltip, Legend } from "chart.js/auto";
 import sectorData from './data/Global-GHG-by-sector.json';
 
@@ -9,11 +9,6 @@ chartjs.register(
   );
 
 
-  const sectordeita = sectorData.Sector.map((item) => { return {
-
-    label: item['Sectori'],
-    value: item['Share of global greenhouse gas emissions (%)']
-}});
 
 
   export default function Viidesvisualisointi() {
@@ -119,12 +114,29 @@ chartjs.register(
     
 
     return (
-        <div style={{ width: "500px" }}>
-          <h1>Evolution of global temperature over the past two million years</h1>
+        
+         <div style={{ width: "400px",  marginLeft:"410px"}}>
+   
     
+
+          <div style={{width: "24rem", border:"1px solid", marginTop:"50px", marginBottom:"50px"}}>
+        <div>
+          
+
+          <div style={{textAlign:"center"}}>
+                <p style={{textAlign:"center"}} >CO2 emissions by sectors</p>
+                <a href="https://ourworldindata.org/emissions-by-sector#co2-emissions-by-sector">CO2 emissions by sector description </a>
+                <p> </p>
+                <a href="https://ourworldindata.org/uploads/2020/09/Global-GHG-Emissions-by-sector-based-on-WRI-2020.xlsx">CO2 emissions by sector data</a>
+          </div>
+             
+              
+          </div>
+      </div>          
+
           <div> 
-          {type === "Doughnut" && <Doughnut data={data} options={options} width={2} height={1.5} />}
-          {type === "Doughnut2" && <Doughnut data={data2} options={options2} width={2} height={1.5} />}
+          {type === "Doughnut" && <Doughnut data={data} options={options} width={1} height={1} />}
+          {type === "Doughnut2" && <Doughnut data={data2} options={options2} width={1} height={1} />}
           </div>
           
         </div>

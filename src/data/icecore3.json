@@ -1,168 +1,168 @@
 {
     "datataulu":[
-     {
-      "iceAge": "948",
-      "co2ratio": "279.4"
-     },
-     {
-      "iceAge": "988",
-      "co2ratio": "280.3"
-     },
-     {
-      "iceAge": "1038",
-      "co2ratio": "282.4"
-     },
-     {
-      "iceAge": "1088",
-      "co2ratio": "283.8"
-     },
-     {
-      "iceAge": "1138",
-      "co2ratio": "283.9"
-     },
-     {
-      "iceAge": "1188",
-      "co2ratio": "281.7"
-     },
-     {
-      "iceAge": "1269",
-      "co2ratio": "283.4"
-     },
-     {
-      "iceAge": "1329",
-      "co2ratio": "280.0"
-     },
-     {
-      "iceAge": "1329",
-      "co2ratio": "280.4"
-     },
-     {
-      "iceAge": "1388",
-      "co2ratio": "281.7"
-     },
-     {
-      "iceAge": "1407",
-      "co2ratio": "279.6"
-     },
-     {
-      "iceAge": "1441",
-      "co2ratio": "282.4"
-     },
-     {
-      "iceAge": "1469",
-      "co2ratio": "283.2"
-     },
-     {
-      "iceAge": "1489",
-      "co2ratio": "282.8"
-     },
-     {
-      "iceAge": "1512",
-      "co2ratio": "281.9"
-     },
-     {
-      "iceAge": "1531",
-      "co2ratio": "278.7"
-     },
-     {
-      "iceAge": "1546",
-      "co2ratio": "274.3"
-     },
-     {
-      "iceAge": "1589",
-      "co2ratio": "277.2"
-     },
-     {
-      "iceAge": "1621",
-      "co2ratio": "275.9"
-     },
-     {
-      "iceAge": "1634",
-      "co2ratio": "276.5"
-     },
-     {
-      "iceAge": "1662",
-      "co2ratio": "277.5"
-     },
-     {
-      "iceAge": "1689",
-      "co2ratio": "276.9"
-     },
-     {
-      "iceAge": "1691",
-      "co2ratio": "277.2"
-     },
-     {
-      "iceAge": "1702",
-      "co2ratio": "276.7"
-     },
-     {
-      "iceAge": "1719",
-      "co2ratio": "279.5"
-     },
-     {
-      "iceAge": "1736",
-      "co2ratio": "281.6"
-     },
-     {
-      "iceAge": "1738",
-      "co2ratio": "283.7"
-     },
-     {
-      "iceAge": "1767",
-      "co2ratio": "285.1"
-     },
-     {
-      "iceAge": "1787",
-      "co2ratio": "286.1"
-     },
-     {
-      "iceAge": "1833",
-      "co2ratio": "294.7"
-     },
-     {
-      "iceAge": "1841",
-      "co2ratio": "296.5"
-     },
-     {
-      "iceAge": "1847",
-      "co2ratio": "299.0"
-     },
-     {
-      "iceAge": "1868",
-      "co2ratio": "305.0"
-     },
-     {
-      "iceAge": "1871",
-      "co2ratio": "305.2"
-     },
-     {
-      "iceAge": "1878",
-      "co2ratio": "307.9"
-     },
-     {
-      "iceAge": "1881",
-      "co2ratio": "309.2"
-     },
-     {
-      "iceAge": "1890",
-      "co2ratio": "311.4"
-     },
-     {
-      "iceAge": "1896",
-      "co2ratio": "313.6"
-     },
-     {
-      "iceAge": "1896",
-      "co2ratio": "314.7"
-     },
-     {
-      "iceAge": "1896",
-      "co2ratio": "314.1"
-     },
-     {
-      "iceAge": "1901",
-      "co2ratio": "315.7"
-     }
-    ]
+        {
+         "airAge": "1959",
+         "co2ratio": "315.7"
+        },
+        {
+         "airAge": "1954",
+         "co2ratio": "313.6"
+        },
+        {
+         "airAge": "1954",
+         "co2ratio": "314.7"
+        },
+        {
+         "airAge": "1954",
+         "co2ratio": "314.1"
+        },
+        {
+         "airAge": "1948",
+         "co2ratio": "311.4"
+        },
+        {
+         "airAge": "1939",
+         "co2ratio": "309.2"
+        },
+        {
+         "airAge": "1936",
+         "co2ratio": "307.9"
+        },
+        {
+         "airAge": "1929",
+         "co2ratio": "305.2"
+        },
+        {
+         "airAge": "1926",
+         "co2ratio": "305.0"
+        },
+        {
+         "airAge": "1905",
+         "co2ratio": "299.0"
+        },
+        {
+         "airAge": "1899",
+         "co2ratio": "296.5"
+        },
+        {
+         "airAge": "1891",
+         "co2ratio": "294.7"
+        },
+        {
+         "airAge": "1845",
+         "co2ratio": "286.1"
+        },
+        {
+         "airAge": "1825",
+         "co2ratio": "285.1"
+        },
+        {
+         "airAge": "1796",
+         "co2ratio": "283.7"
+        },
+        {
+         "airAge": "1794",
+         "co2ratio": "281.6"
+        },
+        {
+         "airAge": "1777",
+         "co2ratio": "279.5"
+        },
+        {
+         "airAge": "1760",
+         "co2ratio": "276.7"
+        },
+        {
+         "airAge": "1749",
+         "co2ratio": "277.2"
+        },
+        {
+         "airAge": "1747",
+         "co2ratio": "276.9"
+        },
+        {
+         "airAge": "1720",
+         "co2ratio": "277.5"
+        },
+        {
+         "airAge": "1692",
+         "co2ratio": "276.5"
+        },
+        {
+         "airAge": "1679",
+         "co2ratio": "275.9"
+        },
+        {
+         "airAge": "1647",
+         "co2ratio": "277.2"
+        },
+        {
+         "airAge": "1604",
+         "co2ratio": "274.3"
+        },
+        {
+         "airAge": "1589",
+         "co2ratio": "278.7"
+        },
+        {
+         "airAge": "1570",
+         "co2ratio": "281.9"
+        },
+        {
+         "airAge": "1547",
+         "co2ratio": "282.8"
+        },
+        {
+         "airAge": "1527",
+         "co2ratio": "283.2"
+        },
+        {
+         "airAge": "1499",
+         "co2ratio": "282.4"
+        },
+        {
+         "airAge": "1465",
+         "co2ratio": "279.6"
+        },
+        {
+         "airAge": "1446",
+         "co2ratio": "281.7"
+        },
+        {
+         "airAge": "1387",
+         "co2ratio": "280.0"
+        },
+        {
+         "airAge": "1387",
+         "co2ratio": "280.4"
+        },
+        {
+         "airAge": "1327",
+         "co2ratio": "283.4"
+        },
+        {
+         "airAge": "1246",
+         "co2ratio": "281.7"
+        },
+        {
+         "airAge": "1196",
+         "co2ratio": "283.9"
+        },
+        {
+         "airAge": "1146",
+         "co2ratio": "283.8"
+        },
+        {
+         "airAge": "1096",
+         "co2ratio": "282.4"
+        },
+        {
+         "airAge": "1046",
+         "co2ratio": "280.3"
+        },
+        {
+         "airAge": "1006",
+         "co2ratio": "279.4"
+        }
+       ]
 }

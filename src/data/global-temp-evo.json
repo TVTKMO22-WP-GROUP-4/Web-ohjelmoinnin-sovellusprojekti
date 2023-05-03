@@ -1,7 +1,7 @@
 {
 "GASTreconstruction":[
  {
-  "Time (kyr BP)": 1000,
+  "Time (kyr BP)": 1,
   "2.5%": -1.47777173809225,
   "50%": -0.174916440002572,
   "97.5%": 1.006886247281,
@@ -14005,12 +14005,14 @@
  {
   "Time (yr BP)": 1000,
   "Carbon dioxide (ppm)": 283.2325031,
-  "Carbon dioxide uncertainty (1sd, ppm)": 11.11631574
+  "Carbon dioxide uncertainty (1sd, ppm)": 11.11631574,
+  "Event": "tekstii"
  },
  {
   "Time (yr BP)": 2000,
   "Carbon dioxide (ppm)": 278.0458112,
-  "Carbon dioxide uncertainty (1sd, ppm)": 3.336202959
+  "Carbon dioxide uncertainty (1sd, ppm)": 3.336202959,
+  "Event": "täs kans"
  },
  {
   "Time (yr BP)": 3000,
@@ -18030,14 +18032,28 @@
 ],
 "humanevolution":[
 {
-    "Time": 125000,
-    "Event": "300"
+    "Time":1500000,
+    "Event":300
 },
 {
-    "Time": 1822,
-    "Event": "300"
-    
+    "Time":1400000,
+    "Event":300
+},
+{
+    "Time":400000,
+    "Event":300
+},
+{
+    "Time":260000,
+    "Event":300
+},
+{
+    "Time":176000,
+    "Event":300
+},
+{
+    "Time":23000,
+    "Event":300
 }
-
 ]
 }

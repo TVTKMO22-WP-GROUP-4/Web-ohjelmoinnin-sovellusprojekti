@@ -1,6 +1,136 @@
 {
     "datataulu":[
      {
+      "airAge": 1840,
+      "co2ratio": "283.0"
+     },
+     {
+      "airAge": 1850,
+      "co2ratio": "285.2"
+     },
+     {
+      "airAge": 1854,
+      "co2ratio": "284.9"
+     },
+     {
+      "airAge": 1861,
+      "co2ratio": "286.6"
+     },
+     {
+      "airAge": 1869,
+      "co2ratio": "287.4"
+     },
+     {
+      "airAge": 1877,
+      "co2ratio": "288.8"
+     },
+     {
+      "airAge": 1882,
+      "co2ratio": "291.9"
+     },
+     {
+      "airAge": 1886,
+      "co2ratio": "293.7"
+     },
+     {
+      "airAge": 1892,
+      "co2ratio": "294.6"
+     },
+     {
+      "airAge": 1898,
+      "co2ratio": "294.7"
+     },
+     {
+      "airAge": 1905,
+      "co2ratio": "296.9"
+     },
+     {
+      "airAge": 1905,
+      "co2ratio": "298.5"
+     },
+     {
+      "airAge": 1912,
+      "co2ratio": "300.7"
+     },
+     {
+      "airAge": 1915,
+      "co2ratio": "301.3"
+     },
+     {
+      "airAge": 1924,
+      "co2ratio": "304.8"
+     },
+     {
+      "airAge": 1924,
+      "co2ratio": "304.1"
+     },
+     {
+      "airAge": 1932,
+      "co2ratio": "307.8"
+     },
+     {
+      "airAge": 1938,
+      "co2ratio": "310.5"
+     },
+     {
+      "airAge": 1939,
+      "co2ratio": "311.0"
+     },
+     {
+      "airAge": 1944,
+      "co2ratio": "309.7"
+     },
+     {
+      "airAge": 1953,
+      "co2ratio": "311.9"
+     },
+     {
+      "airAge": 1953,
+      "co2ratio": "311.0"
+     },
+     {
+      "airAge": 1953,
+      "co2ratio": "312.7"
+     },
+     {
+      "airAge": 1962,
+      "co2ratio": "318.7"
+     },
+     {
+      "airAge": 1962,
+      "co2ratio": "317.0"
+     },
+     {
+      "airAge": 1962,
+      "co2ratio": "319.4"
+     },
+     {
+      "airAge": 1962,
+      "co2ratio": "317.0"
+     },
+     {
+      "airAge": 1963,
+      "co2ratio": "318.7"
+     },
+     {
+      "airAge": 1965,
+      "co2ratio": "318.8"
+     },
+     {
+      "airAge": 1965,
+      "co2ratio": "318.2"
+     },
+     {
+      "airAge": 1968,
+      "co2ratio": "323.7"
+     },
+     {
+      "airAge": 1969,
+      "co2ratio": "323.2"
+     }
+    ],
+    "datataulu12":[
+     {
       "iceAge": "1810",
       "co2ratio": "283.0"
      },

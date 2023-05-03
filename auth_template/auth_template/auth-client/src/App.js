@@ -7,6 +7,7 @@ import Home from "./Pages/Home/home"
 import Login from "./Pages/Login/login";
 import Signup from "./Pages/Signup/signup";
 import Visualisation from "./Pages/Visualisation/visualisation";
+import Ekavisualisointi from "./Pages/Ekavisualisointi/Ekavisualisointi";
 
 function App() {
 
@@ -74,7 +75,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<Signup />} />
         <Route path="visualisation" element={<Visualisation />} />
-        
+        <Route path="Ekavisualisointi" element={<Ekavisualisointi />} />
       </Route>
     </Routes>
   </BrowserRouter>

@@ -10,3 +10,8 @@
     border-radius: 1rem;
     object-fit: cover;
   }
+
+  .tervetuloa {
+    display: flex;
+    justify-content: center;
+  }

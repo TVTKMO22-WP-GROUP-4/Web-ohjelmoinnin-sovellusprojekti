@@ -1,0 +1,48 @@
+{
+    "datataulu":[
+        {
+         "airAge": "1978",
+         "co2ratio": "335.2"
+        },
+        {
+         "airAge": "1978",
+         "co2ratio": "332.0"
+        },
+        {
+         "airAge": "1975",
+         "co2ratio": "331.2"
+        },
+        {
+         "airAge": "1973",
+         "co2ratio": "328.1"
+        },
+        {
+         "airAge": "1971",
+         "co2ratio": "324.1"
+        },
+        {
+         "airAge": "1970",
+         "co2ratio": "325.2"
+        },
+        {
+         "airAge": "1970",
+         "co2ratio": "324.7"
+        },
+        {
+         "airAge": "1948",
+         "co2ratio": "309.9"
+        },
+        {
+         "airAge": "1940",
+         "co2ratio": "310.5"
+        },
+        {
+         "airAge": "1934",
+         "co2ratio": "309.2"
+        },
+        {
+         "airAge": "1832",
+         "co2ratio": "284.5"
+        }
+    ]
+}

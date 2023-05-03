@@ -10,6 +10,7 @@ function Home() {
           <img src={imagePath} className="image" width="720" height="500" />
         </div>
       </header>
+      <p className='tervetuloa'>Tervetuloa! Luo käyttäjä tai kirjaudu sisään tarkastellaksesi ilmasto tietoja!</p>
     </div>
   );
 }

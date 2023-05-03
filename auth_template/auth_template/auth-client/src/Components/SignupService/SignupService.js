@@ -25,9 +25,9 @@ function SignupService() {
             //Save response token in localstorage
             axios.post('http://localhost:8080/register', formData)
             .then(response => {
-                localStorage.setItem("token", response.data);
+                //localStorage.setItem("token", response.data);
                 setError('');
-                nav('/');
+                nav('/Login');
                 })
             .catch(error => {
                 console.log('ERROR ', error.message);

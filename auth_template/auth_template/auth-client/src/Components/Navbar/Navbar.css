@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #a3b188;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px;
+    font-size: larger;
+    color: rgb(220, 255, 210);
+}
+
+.kirjautuminen {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btn {
+    padding-left: 15px;
+    text-decoration: none;
+    color: rgb(87, 97, 59);
+}
+
+.btn:hover {
+    text-decoration: underline;
+}

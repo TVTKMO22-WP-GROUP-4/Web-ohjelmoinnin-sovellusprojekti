@@ -1,0 +1,49 @@
+.kayttaja {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.form {
+    background-color: #a3b188;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0 auto;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #a3b188;
+    border-width: 2px;
+    padding: 80px 80px;
+    background-image: url("../../nature-backround.jpg");
+    background-size: cover;
+}
+
+.input {
+    margin-bottom: 30px;
+}
+
+.rekisteroidy {
+    border-radius: 1rem;
+    border-color: #0000;
+    border-width: 2px;
+    background-color: #fff;
+    font-size: large;
+    color: #000;
+}
+
+.rekisteroidy:hover {
+    background-color: #ebebeb;    
+    transition: all;
+    transition-duration: 150ms;
+}
+
+.heading {
+    text-align: center;
+}
+
+.errorText {
+    background-color:  #a3b188;
+    color: red;
+    padding: 1rem;
+}

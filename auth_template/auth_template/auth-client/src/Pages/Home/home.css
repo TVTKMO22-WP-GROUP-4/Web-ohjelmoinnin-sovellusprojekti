@@ -1,0 +1,17 @@
+.imgwrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .image {
+    width: 75vw;
+    height: 75vh;
+    border-radius: 1rem;
+    object-fit: cover;
+  }
+
+  .tervetuloa {
+    display: flex;
+    justify-content: center;
+  }

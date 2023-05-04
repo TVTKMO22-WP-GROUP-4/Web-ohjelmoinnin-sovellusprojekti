@@ -65,3 +65,14 @@ Kirjautumistoiminnot: Asiakkaan tulee ensin rekisteröityä käyttäjäksi, jonk
 <img width="1371" alt="Nayttokuva_2023-5-4_kello_13 45 46" src="https://user-images.githubusercontent.com/113541442/236182715-1367d4e9-272d-4e17-a782-7b77325c8adb.png">
 
 **KUVA 7: Käyttäjän näkymä sisään kirjauduttua**
+
+
+### Käyttöönotto 
+
+**1.** Cloonaa repo haluamaasi kansioon komennolla git clone https://github.com/TVTKMO22-WP-GROUP-4/Web-ohjelmoinnin-sovellusprojekti.git 
+
+**2.** Lisää client ja server kansioihin komento npm install 
+
+**3.** Avaa Java kansio ja valitse Run Java 
+
+**4.** Avaa React kansio ja aja komento npm start 

@@ -102,7 +102,7 @@ const options = {
 };
 return (
     <div style={{ width: "1600px", height: "850px" }}>
-      <h1>visu2</h1>
+      <h1>Visualisointi 2</h1>
       <Line options={options} data={Visuilua} />
     </div>
   );
